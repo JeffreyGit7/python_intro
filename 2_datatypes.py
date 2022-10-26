@@ -4,7 +4,6 @@
 
 from operator import truediv
 
-
 x = 5  # Int data type
 y = 2.5  # Float data type
 
