@@ -1,4 +1,4 @@
-# input in python
+# input in Python
 # python uses the function input() to capture and store input in the application
 
 print("User Profile Application")

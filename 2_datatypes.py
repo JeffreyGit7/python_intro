@@ -7,7 +7,7 @@ from operator import truediv
 x = 5  # Int data type
 y = 2.5  # Float data type
 
-# Python allows variable declaraations on the same line
+# python allows variable declaraations on the same line
 # x, y = 5, 2.5
 
 # Python allows setting multiple variables to the same value
