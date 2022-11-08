@@ -13,8 +13,8 @@ print(my_cars[0])
 # Check the length of the tuple
 print(len(my_cars))
 
-# # Add value to tuple
-# my_cars[1] = "Mazda"
+# # Add value to tuple          #Not possible.
+# my_cars[1] = "Mazda"          #tuples are immutable
 # my_cars[5] = "Nissan"
 
 print(my_cars)

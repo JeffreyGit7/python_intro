@@ -1,6 +1,7 @@
 # Create and initialize a set
 ea_cities = {"Kampala", "Nairobi", "Arusha", "Mombasa", "Nairobi"}
 
+# can't print a specific index because sets are not ordered or indexed
 print(ea_cities)
 
 print(f"There are {len(ea_cities)} cities in the set")

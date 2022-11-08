@@ -1,6 +1,7 @@
 # Declare and initialize a list
 fruits = ["Orange", "Peach", "Banana", "Mango", "Plum"]
 print(fruits)
+print(type(fruits))
 
 # Loop through entire list of fruits
 for fruit in fruits:
@@ -18,7 +19,7 @@ print("The fruit at end of the list: " + fruits[-1])
 print(f"The fruit basket currently has {len(fruits)} fruits")
 
 # Add something to the list
-fruits.append("Lemon")
+fruits.append("Lemon")  # list.append() takes exactly one argument
 print(fruits)
 # Check length of the list
 print(f"The fruit basket currently has {len(fruits)} fruits")

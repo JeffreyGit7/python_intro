@@ -52,4 +52,5 @@ print(my_phones["phone_two"])
 
 print("Printing all the phones in the dictionary")
 for phone in my_phones:
+    # if just print(phone) it would just list the three phone names. i.e. phone_one, phone_two, phone_three
     print(my_phones[phone])
