@@ -7,10 +7,10 @@ for fruit in fruits:
     print(fruit)
 
 # Retrieve list items
-# print(f"The fruit at position 1: {fruits[0]}")
-# print(f"The fruit at end of the list: {fruits[-1]}")
+print(f"The fruit at position 1: {fruits[0]}")
+print(f"The fruit at end of the list: {fruits[-1]}")
 # or
-# comma is necessary for concatenation
+# comma before continuing quotation is necessary
 print("The fruit at position 1: " + fruits[0], "boy")
 print("The fruit at end of the list: " + fruits[-1])
 

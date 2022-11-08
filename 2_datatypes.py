@@ -20,6 +20,8 @@ my_string = [1, 2, 3]  # List data type
 none_type = None
 my_char = ('a')
 
+print(2+2)  # NOTE THIS
+
 print(type(x))
 print(type(y))
 print(type(a))

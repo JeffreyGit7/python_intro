@@ -18,4 +18,8 @@ print(f"Your first name is {first_name} and your job is {occupation}")
 # without "int()" - error: cannot concatenate int and string(25) ?:P
 age = int(input("Please enter your age: "))
 
-print(f"In two years, your age will be {age+2} ")
+print(f"In two years, your age will be {age+2}")
+
+# the following won't work.. you can only concatenate str, (not "int") to str
+# print("In three years, your age will be " +(age+3))
+# so use formatted strings? e.g. line 21
