@@ -1,3 +1,8 @@
+# note = "The quick brown fox jumped over the lazy dog"
+# print(note)
+# print(note.count("dog"))
+
+
 # # --------------------------FLOW CONTROL-------------------------
 # # LOOPS
 # print("Please enter your first name")
@@ -76,12 +81,15 @@
 # # print(f"Phone one specs: {my_phones['phone_one']}")
 # print(my_phones["phone_one"])
 
+# Just prints the "titles"
 # for phone in my_phones:
 #     print(phone)
 
+# Prints all details
 # for phone in my_phones:
 #     print(my_phones[phone])
 
+# Prints both title and details
 # for phone in my_phones:
 #     print(phone)
 #     print(my_phones[phone])
@@ -93,6 +101,8 @@
 # print(len(cars))
 
 # print(cars[1])
+# print(cars[0])
+# print(cars[-1])
 
 # print(cars)
 
@@ -124,7 +134,10 @@
 # # ------------------------------------LISTS---------------------------------------
 # fruits = ["Pineapple", "Peach", "Orange", "Mango", "Apple"]
 # print(fruits)
+# print(fruits[0])
+# print(fruits[-1])
 # print(f"The number of fruits in the list is {len(fruits)}")
+
 
 # for fruit in fruits:
 #     print(fruit)
