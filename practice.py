@@ -1,3 +1,51 @@
+# # --------------------------FLOW CONTROL-------------------------
+# # LOOPS
+# print("Please enter your first name")
+# fname = input("First name: ")
+# for letter in fname:
+#     print(letter)
+
+
+# # End number in range (30) not included. If you want it included use 31.
+# for number in range(0, 30, 3):
+#     print(number)
+
+
+# count = 10
+# while (count >= 0):
+#     print(f"The counter is currently on {count}")
+#     if (count % 2 == 0):
+#         print(f"{count} is even")
+#     else:
+#         print(f"{count} is odd")
+#     count -= 1
+# print("End of loop")
+
+# # CONDITIONAL STATEMENTS
+# print("Please enter your age")
+# age = int(input("Age: "))
+# if (age >= 21):                # # This line would throw a string-int error without "int" on previous line
+#     print("You are eligible for a PSV driver's license")
+# elif (age >= 18):
+#     print("You are eligible for a driver's license but not for PSVs.")
+# else:
+#     print(f"You are not eligible for a driver's license until you are 18 years of age. Come back in {18-age} years")
+
+# print("Please enter the mark")
+# mark = int(input("Mark: "))
+# if (mark >= 70):
+#     print("Pass: Grade A")
+# elif (mark >= 60):
+#     print("Pass: Grade B")
+# elif (mark >= 50):
+#     print("Pass: Grade C")
+# elif (mark >= 40):
+#     print("Pass: Grade D")
+# else:
+#     print("Fail")
+# ---------------------------------------------------------------
+
+
 # #------------------------------DICTIONARIES---------------------------
 # my_car = {
 #     "Brand": "Volkswagen",
